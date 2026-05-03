@@ -225,11 +225,18 @@ export const copilotModelsHeaders = (state: State) => {
   return headers
 }
 
+export interface CopilotHeaderOptions {
+  requestId?: string
+  vision?: boolean
+  intent?: string
+}
+
 export const copilotHeaders = (
   state: State,
-  requestId?: string,
-  vision: boolean = false,
+  options: CopilotHeaderOptions = {},
 ) => {
+  const { requestId, vision = false, intent } = options
+
   if (isOpencodeOauthApp()) {
     const headers: Record<string, string> = {
       Authorization: `Bearer ${state.copilotToken}`,
@@ -258,7 +265,12 @@ export const copilotHeaders = (
     return headers
   }
 
-  return githubCopilotHeaders(state, requestId, vision)
+  const headers = githubCopilotHeaders(state, requestId, vision)
+  if (intent) {
+    headers["openai-intent"] = intent
+    headers["x-interaction-type"] = intent
+  }
+  return headers
 }
 
 export const copilotWebSocketHeaders = (

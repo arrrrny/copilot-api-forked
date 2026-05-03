@@ -95,7 +95,10 @@ export const createMessages = async (
   }
 
   const headers: Record<string, string> = {
-    ...copilotHeaders(state, options.requestId, enableVision),
+    ...copilotHeaders(state, {
+      requestId: options.requestId,
+      vision: enableVision,
+    }),
     "x-initiator": isInitiateRequest ? "user" : "agent",
   }
 

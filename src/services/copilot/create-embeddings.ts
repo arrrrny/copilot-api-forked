@@ -5,10 +5,16 @@ import { state } from "~/lib/state"
 export const createEmbeddings = async (payload: EmbeddingRequest) => {
   if (!state.copilotToken) throw new Error("Copilot token not found")
 
+  // Force input to be an array for compatibility
+  const body = {
+    ...payload,
+    input: Array.isArray(payload.input) ? payload.input : [payload.input],
+  }
+
   const response = await fetch(`${copilotBaseUrl(state)}/embeddings`, {
     method: "POST",
-    headers: copilotHeaders(state),
-    body: JSON.stringify(payload),
+    headers: copilotHeaders(state, { intent: "embeddings" }),
+    body: JSON.stringify(body),
   })
 
   if (!response.ok) throw new HTTPError("Failed to create embeddings", response)

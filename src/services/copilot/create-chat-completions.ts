@@ -44,7 +44,10 @@ export const createChatCompletions = async (
 
   // Build headers and add x-initiator
   const headers: Record<string, string> = {
-    ...copilotHeaders(state, options.requestId, enableVision),
+    ...copilotHeaders(state, {
+      requestId: options.requestId,
+      vision: enableVision,
+    }),
     "x-initiator": isAgentCall ? "agent" : "user",
   }
 

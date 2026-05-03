@@ -480,7 +480,7 @@ export const createResponses = async (
   if (!state.copilotToken) throw new Error("Copilot token not found")
 
   const headers: Record<string, string> = {
-    ...copilotHeaders(state, requestId, vision),
+    ...copilotHeaders(state, { requestId, vision }),
     "x-initiator": initiator,
   }
 

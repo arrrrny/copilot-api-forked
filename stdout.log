@@ -1,0 +1,275 @@
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-41-copilot
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 176ms
+<-- GET /v1/models
+--> GET /v1/models [32m200[0m 31ms
+<-- GET /v1/models
+--> GET /v1/models [32m200[0m 0ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 176ms
+<-- GET /v1/models
+--> GET /v1/models [32m200[0m 1ms
+<-- GET /v1/models
+--> GET /v1/models [32m200[0m 0ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 170ms
+<-- GET /usage
+--> GET /usage [32m200[0m 634ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 153ms
+<-- POST /v1/chat/completions
+<-- model: gpt-4.1
+ℹ Copilot session quota remaining: 100.0, resets at: 5/3/2026, 11:05:24 PM
+ℹ Copilot weekly quota remaining: 95.9, resets at: 5/4/2026, 3:00:00 AM
+--> POST /v1/chat/completions [32m200[0m 877ms
+<-- GET /v1/models
+--> GET /v1/models [32m200[0m 0ms
+<-- POST /embeddings
+--> POST /embeddings [33m400[0m 157ms
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-41-copilot
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 156ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 3s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 1s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 155ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 1s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 153ms
+<-- GET /usage
+--> GET /usage [32m200[0m 380ms
+<-- POST /v1/chat/completions
+<-- model: gpt-4.1
+ℹ Copilot session quota remaining: 100.0, resets at: 5/3/2026, 11:05:24 PM
+ℹ Copilot weekly quota remaining: 95.9, resets at: 5/4/2026, 3:00:00 AM
+--> POST /v1/chat/completions [32m200[0m 878ms
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-41-copilot
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [33m400[0m 178ms
+<-- POST /v1/chat/completions
+<-- model: gpt-4.1
+ℹ Copilot session quota remaining: 100.0, resets at: 5/3/2026, 11:05:24 PM
+ℹ Copilot weekly quota remaining: 95.9, resets at: 5/4/2026, 3:00:00 AM
+--> POST /v1/chat/completions [32m200[0m 1s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 1s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 7s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 5s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 6s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 5s
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 6s
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-opus-4.7
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5.5
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-opus-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 325ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 701ms
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 2s
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-41-copilot
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 647ms
+ℹ Using VSCode version: 1.118.0
+ℹ Logged in as arrrrny
+ℹ Fetching models from https://api.individual.githubcopilot.com/models
+ℹ Available models: 
+- claude-sonnet-4.6
+- gemini-3.1-pro-preview
+- gpt-5.2-codex
+- gpt-5.3-codex
+- gpt-5.4-mini
+- gpt-5.4
+- gpt-5-mini
+- grok-code-fast-1
+- text-embedding-3-small
+- text-embedding-3-small-inference
+- claude-sonnet-4
+- claude-sonnet-4.5
+- claude-haiku-4.5
+- gemini-3-flash-preview
+- gemini-2.5-pro
+- oswe-vscode-prime
+- gpt-5.2
+- gpt-41-copilot
+- gpt-4.1
+- gpt-4o
+- text-embedding-ada-002
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────╮
+ │                                                                                            │
+ │  🌐 Usage Viewer: http://localhost:4141/usage-viewer?endpoint=http://localhost:4141/usage  │
+ │                                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+➜ Listening on: http://localhost:4141/ (all interfaces)
+<-- POST /v1/embeddings
+--> POST /v1/embeddings [32m200[0m 331ms

@@ -6,4 +6,3 @@ else
   # Default command
   exec bun --use-system-ca run dist/main.js start -g "$GH_TOKEN" "$@"
 fi
-
