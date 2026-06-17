@@ -19,3 +19,5 @@ dist/
 *.vsix
 
 .claude
+stderr.log
+stdout.log
