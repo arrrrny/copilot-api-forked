@@ -9,6 +9,7 @@ import {
 } from "./lib/request-auth"
 import { traceIdMiddleware } from "./lib/trace"
 import { zstdDecompressionMiddleware } from "./lib/zstd-request"
+import { apiJsonRoutes } from "./routes/api-json/route"
 import { completionRoutes } from "./routes/chat-completions/route"
 import { configRoutes } from "./routes/admin/config/route"
 import { embeddingRoutes } from "./routes/embeddings/route"
@@ -43,7 +44,20 @@ server.use(
 )
 server.use(zstdDecompressionMiddleware)
 
-server.get("/", (c) => c.text("Server running"))
+// models.dev-compatible api.json for Kimi Code custom registry import
+// Serve at both "/" and "/api.json" — Kimi Code's custom registry
+// fetches the URL as-is (often the bare root).
+server.route("/api.json", apiJsonRoutes)
+server.get("/", (c) => {
+  // If the request looks like a catalog fetch (accepts JSON), serve api.json
+  const accept = c.req.header("accept") ?? ""
+  if (accept.includes("application/json") || accept.includes("*/*")) {
+    // Forward to the api.json handler
+    return apiJsonRoutes.fetch(c.req.raw)
+  }
+  return c.text("Server running")
+})
+
 server.get("/usage-viewer", (c) => {
   const usageViewerFileUrl = new URL("../pages/index.html", import.meta.url)
   return c.html(readFileSync(usageViewerFileUrl, "utf8"))
