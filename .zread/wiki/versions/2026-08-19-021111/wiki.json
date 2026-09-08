@@ -1,0 +1,119 @@
+{
+  "id": "2026-08-19-021111",
+  "generated_at": "2026-08-18T23:11:11.999673Z",
+  "language": "en",
+  "pages": [
+    {
+      "slug": "1-overview",
+      "title": "Overview",
+      "file": "1-overview.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-quick-start",
+      "title": "Quick Start",
+      "file": "2-quick-start.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-cli-commands-and-global-options",
+      "title": "CLI Commands and Global Options",
+      "file": "3-cli-commands-and-global-options.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-configuration-reference",
+      "title": "Configuration Reference",
+      "file": "4-configuration-reference.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "5-docker-deployment",
+      "title": "Docker Deployment",
+      "file": "5-docker-deployment.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "6-server-initialization-and-http-framework",
+      "title": "Server Initialization and HTTP Framework",
+      "file": "6-server-initialization-and-http-framework.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "7-authentication-and-authorization-middleware",
+      "title": "Authentication and Authorization Middleware",
+      "file": "7-authentication-and-authorization-middleware.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-rate-limiting-and-manual-approval",
+      "title": "Rate Limiting and Manual Approval",
+      "file": "8-rate-limiting-and-manual-approval.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-openai-compatible-chat-completions-endpoint",
+      "title": "OpenAI-Compatible Chat Completions Endpoint",
+      "file": "9-openai-compatible-chat-completions-endpoint.md",
+      "section": "Deep Dive",
+      "level": "Advanced"
+    },
+    {
+      "slug": "10-anthropic-messages-endpoint-and-multi-flow-routing",
+      "title": "Anthropic Messages Endpoint and Multi-Flow Routing",
+      "file": "10-anthropic-messages-endpoint-and-multi-flow-routing.md",
+      "section": "Deep Dive",
+      "level": "Advanced"
+    },
+    {
+      "slug": "11-openai-responses-endpoint-and-websocket-transport",
+      "title": "OpenAI Responses Endpoint and WebSocket Transport",
+      "file": "11-openai-responses-endpoint-and-websocket-transport.md",
+      "section": "Deep Dive",
+      "level": "Advanced"
+    },
+    {
+      "slug": "12-provider-scoped-multi-tenant-routing",
+      "title": "Provider-Scoped Multi-Tenant Routing",
+      "file": "12-provider-scoped-multi-tenant-routing.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "13-github-copilot-authentication-and-token-lifecycle",
+      "title": "GitHub Copilot Authentication and Token Lifecycle",
+      "file": "13-github-copilot-authentication-and-token-lifecycle.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "14-codex-oauth-provider-integration",
+      "title": "Codex OAuth Provider Integration",
+      "file": "14-codex-oauth-provider-integration.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-third-party-provider-configuration-and-proxying",
+      "title": "Third-Party Provider Configuration and Proxying",
+      "file": "15-third-party-provider-configuration-and-proxying.md",
+      "section": "Deep Dive",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-model-resolution-aliasing-and-normalization",
+      "title": "Model Resolution, Aliasing, and Normalization",
+      "file": "16-model-resolution-aliasing-and-normalization.md",
+      "section": "Deep Dive",
+      "level": "Advanced"
+    }
+  ]
+}
