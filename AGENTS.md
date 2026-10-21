@@ -38,7 +38,7 @@
 - **Testing:**  
    Use Bun's built-in test runner. Place tests in `tests/`, name as `*.test.ts`.
 - **Linting:**  
-  Uses the local flat config in `eslint.config.js`. Includes JavaScript recommended rules, TypeScript recommended type-checked rules, unused import cleanup, and Prettier.
+   Uses the local flat config in `eslint.config.js`. Includes JavaScript recommended rules, TypeScript recommended type-checked rules, unused import cleanup, and Prettier.
 - **Paths:**  
   Use path aliases (`~/*`) for imports from `src/`.
 
@@ -46,7 +46,6 @@
 
 This file is tailored for agentic coding agents. For more details, see the configs in `eslint.config.js` and `tsconfig.json`. No Cursor or Copilot rules detected.
 
-<<<<<<< Updated upstream
 # Shared terminal (`pallet`)
 Long-running or user-visible commands (e.g. `flutter run`, `dart run build_runner build`, `bun run watch:dev`) should run in the **shared `pallet` tmux session** so both the human and agents see the same terminal. The human attaches with `pallet up` (in their terminal, e.g. Zap); agents drive it via the `pallet` CLI or the `pallet` MCP server (`~/Developer/forklift/scripts/pallet/pallet_mcp_server.dart`):
 
@@ -59,7 +58,7 @@ pallet read -w N              # capture the window's output
 
 See `~/Developer/forklift/scripts/pallet/README.md` for the full workflow
 and CLI reference.
-=======
+
 <!-- local-ci:begin -->
 ## Running CI locally — `scripts/local_ci.sh`
 
@@ -106,6 +105,3 @@ What it cannot reproduce, and prints on startup instead of guessing:
 Canonical copy: `arrrrny/forklift` → `scripts/local_ci.sh` (reference:
 `docs/forklift-scripts.md`).
 <!-- local-ci:end -->
-
->>>>>>> Stashed changes
-

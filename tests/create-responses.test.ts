@@ -204,7 +204,7 @@ describe("createResponses", () => {
 
   test("builds capture-style websocket headers without x-initiator", () => {
     const preparedHeaders = {
-      ...copilotHeaders(state, "request-1", true),
+      ...copilotHeaders(state, { requestId: "request-1", vision: true }),
       "x-initiator": "user",
     }
     prepareInteractionHeaders("interaction-1", false, preparedHeaders)
@@ -246,7 +246,7 @@ describe("createResponses", () => {
 
   test("websocket request uses prepared compact and interaction headers", () => {
     const preparedHeaders = {
-      ...copilotHeaders(state, "request-1", false),
+      ...copilotHeaders(state, { requestId: "request-1" }),
       "x-initiator": "user",
     }
     prepareInteractionHeaders("interaction-1", true, preparedHeaders)
@@ -287,7 +287,7 @@ describe("createResponses", () => {
     process.env.COPILOT_API_OAUTH_APP = "opencode"
 
     const preparedHeaders = {
-      ...copilotHeaders(state, "request-1", false),
+      ...copilotHeaders(state, { requestId: "request-1" }),
       "x-initiator": "user",
     }
     prepareInteractionHeaders("interaction-1", true, preparedHeaders)
