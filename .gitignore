@@ -21,3 +21,7 @@ dist/
 .claude
 stderr.log
 stdout.log
+
+# python cache
+__pycache__/
+*.pyc
