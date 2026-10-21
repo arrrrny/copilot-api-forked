@@ -17,6 +17,23 @@
 - **Start (prod):**  
   `bun run start`
 
+## Running as a local service (launchd)
+
+Two per-user LaunchAgents in `~/Library/LaunchAgents/` keep the server up on
+port 4141; both plists are committed here and must stay in sync with the
+installed copies.
+
+- `com.copilot-api-forked` — runs `scripts/ensure-running.sh`, which ensures
+  `node_modules` and `dist/main.js` exist (rebuilding if a `git clean` wiped
+  them) before starting the server. Without this the agent crash-loops on a
+  missing `dist/` while still reporting itself as loaded.
+- `com.copilot-api-forked.logrotate` — hourly, runs `scripts/rotate-logs.sh`
+  to truncate `stdout.log` / `stderr.log` in place once they pass
+  `MAX_BYTES` (1 MiB). launchd appends to those paths forever and has no
+  rotation of its own.
+
+Check state with `launchctl print gui/$(id -u)/com.copilot-api-forked`.
+
 ## Code Style Guidelines
 
 - **Imports:**  
